@@ -1,5 +1,6 @@
 #!/bin/sh
-
-DEVICE_NUMBER=0
+source utility/functions.sh
+source profile/drogger/dg-pro1rw.sh
+print_config
 
 sudo rfcomm release $DEVICE_NUMBER
